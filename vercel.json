@@ -8,6 +8,22 @@
     ],
     "routes": [
       {
+        "src": "/chat.html",
+        "dest": "/public/chat.html"
+      },
+      {
+        "src": "/index.html",
+        "dest": "/public/index.html"
+      },
+      {
+        "src": "/style.css",
+        "dest": "/public/style.css"
+      },
+      {
+        "src": "/homestyle.css",
+        "dest": "/public/homestyle.css"
+      },
+      {
         "src": "/(.*)",
         "dest": "server.js"
       }
